@@ -107,6 +107,7 @@
     <Content Include="externalref\SharedComponents.pdb" />
     <Content Include="FusionLog.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="headers.aspx" />
     <Content Include="HighCPUPage1.aspx" />
     <Content Include="HighCPUPage2.aspx" />
     <Content Include="HiringDB.aspx" />
@@ -227,6 +228,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="headers.aspx.cs">
+      <DependentUpon>headers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="headers.aspx.designer.cs">
+      <DependentUpon>headers.aspx</DependentUpon>
     </Compile>
     <Compile Include="HighCPUPage1.aspx.cs">
       <DependentUpon>HighCPUPage1.aspx</DependentUpon>
